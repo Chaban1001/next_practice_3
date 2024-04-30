@@ -1,0 +1,51 @@
+.body {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   display: flex;
+   flex-direction: column;
+}
+
+
+.main {
+   flex: 1 1 auto;
+   min-height: 100vh;
+}
+
+.header > .headerMenu {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 4rem;
+   padding: 20px 0;
+   margin: 0;
+   background: #777;
+}
+
+.menuListItem {
+   font-weight: 700;
+   list-style-type: none;
+}
+
+.menuListLink{
+   text-decoration: none;
+   color: #fff;
+}
+
+.textCenter {
+   font-size: 2.5em;
+   margin-top: 3rem;
+   text-align: center;
+}
+
+.footer {
+   text-align: center;
+   padding: 10px 0;
+   color: #fff;
+   background: #777;
+}
+
+.Link {
+   color: #123;
+   text-decoration: none;
+}
